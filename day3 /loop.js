@@ -79,7 +79,33 @@ i++  // last line // incriment
 }
 */
 
+/*
 
+// break in JS 
 
+// .. -2 , -1 , 0 ,1 , 2  .... 10 
+
+//i = 10 ; 10 < 0 
+for (i = 10 ; i > 0 ; i--) {
+if(i === 5)
+{
+break
+}else{
+console.log(i)
+}
+}
+
+*/
+
+// continue 
+
+for (i = 10 ; i > 0 ; i--) {
+    if(i % 2 !== 0){
+        console.log(i)
+    }else{
+        continue
+        console.log(i)
+    }
+}
 
 
